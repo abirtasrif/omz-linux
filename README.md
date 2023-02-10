@@ -21,3 +21,4 @@
 14. The config page will appear. Just proceed with your choice. (only keep in mind to select unicode in Character set)
 15. To reconfigure setting in future, run<br>
 `p9k_configure`
+16. you can tweak the configuration by editing `~/.p10k.zsh` file.
