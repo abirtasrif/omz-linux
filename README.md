@@ -23,8 +23,11 @@
 `p9k_configure`
 
 ### optional
-16. you can tweak the configuration by editing `~/.p10k.zsh` file.
-17.to view the color codes of 255 colors, you may run below command in terminal<br>
+16. To use in VSCODE terminal, use zsh terminal and change font to one monospace Nerd Font. You can install attached Daddy font mono and use this value in vscode settings.json<br>
+`"terminal.integrated.fontFamily": "DaddyTimeMono Nerd Font Mono"`
+
+17. you can tweak the configuration by editing `~/.p10k.zsh` file.
+18.to view the color codes of 255 colors, you may run below command in terminal<br>
 `for i in {0..255}; do print -Pn “%K{$i} %k%F{$i}${(l:3::0:)i}%f “ ${${(M)$((i%6)):#3}:+$’\n’}; done`
 
 -ENJOY- 
