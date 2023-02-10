@@ -21,4 +21,10 @@
 14. The config page will appear. Just proceed with your choice. (only keep in mind to select unicode in Character set)
 15. To reconfigure setting in future, run<br>
 `p9k_configure`
+
+### optional
 16. you can tweak the configuration by editing `~/.p10k.zsh` file.
+17.to view the color codes of 255 colors, you may run below command in terminal<br>
+`for i in {0..255}; do print -Pn “%K{$i} %k%F{$i}${(l:3::0:)i}%f “ ${${(M)$((i%6)):#3}:+$’\n’}; done`
+
+-ENJOY- 
