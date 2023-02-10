@@ -12,7 +12,7 @@ chsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 08. Install powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-09. Download the nerdfonts and copy all fonts into .fonts folder under HOME. If not present, create one
+09. Download and copy the font into .fonts folder under HOME. If not present, create one
 10. Change the "Monospace Text" font from your tweaks/appearance to "MesloLGS NF Regular"
 11. Edit the zsh profile
 gedit ~/.zshrc
