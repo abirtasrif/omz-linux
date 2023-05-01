@@ -12,8 +12,8 @@
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 08. Install powerlevel10k<br>
 `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
-09. Download and copy the font into .fonts folder under HOME. If not present, create one
-10. Change the "Monospace Text" font from your tweaks/appearance to "MesloLGS NF Regular"
+09. Download any [nerd font ](https://www.nerdfonts.com/font-downloads) and copy the font into .fonts folder under HOME. If not present, create one
+10. Change the "Monospace Text" font from your tweaks/appearance to the Nerd font you've downloaded.
 11. Edit the zsh profile<br>
 `gedit ~/.zshrc`
 12. Find the ZSH_THEME="robbyrussell" and change the theme `robbyrussell` to `powerlevel10k/powerlevel10k`
@@ -23,7 +23,7 @@
 `p9k_configure`
 
 ### optional
-16. To use in VSCODE terminal, use zsh terminal and change font to one monospace Nerd Font. You can install attached Daddy font mono and use this value in vscode settings.json<br>
+16. To use in VSCODE terminal, use zsh terminal and change font to one monospace Nerd Font. Example of Daddy font mono and use this value in vscode settings.json<br>
 `"terminal.integrated.fontFamily": "DaddyTimeMono Nerd Font Mono"`
 
 17. you can tweak the configuration by editing `~/.p10k.zsh` file.
